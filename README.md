@@ -1,7 +1,5 @@
 ## Flutter Notes
 
-Utilizei a versão mais recente do Flutter 3.16 para esta tarefa, conforme solicitado utilizei o shared_preferences e mobx no projeto. Para abrir uma página da web ao tocar no botão "Política de Privacidade" utilizei o package url_launcher, na intenção de tornar a aplicação o mais fiel a realidade, mesmo que apenas para um teste, utilizei o mockapi.io para simular uma api externa e para acessar a API utilizei o package dio. Também levando em consideração a realidade de um projeto que cada usuário logado só vê suas notas, utilizei o package go_router para facilitar o redirecionamento de usuarios que não estejam logados para tela de login
-
 Utilizei a versão mais recente do flutter 3.16 para esta tarefa.
 
 Conforme solicitado os packages [shared_preferences](https://pub.dev/packages/shared_preferences) e [mobx](https://pub.dev/packages/mobx) foram utilizados para persistencia de dados e gerencia de estado respectivamente.
